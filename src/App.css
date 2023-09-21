@@ -36,3 +36,38 @@
     transform: rotate(360deg);
   }
 }
+
+body {
+  background: #b7cedc;
+}
+
+.navbar {
+  background-color: #33414c;
+}
+
+.navBtn {
+  color: #dde0e1;
+}
+
+.footer {
+  background-color: #33414c;
+}
+
+.text {
+  color: #33414c;
+}
+
+.cardColor {
+  background-color: #87403e;
+  box-shadow: 0px 2px 4px;
+}
+
+.detailBtn {
+  background-color: #33414c;
+  box-shadow: 0px 2px 4px #282c34;
+}
+
+.title {
+  background-color: #33414c;
+  color: #dde0e1;
+}
