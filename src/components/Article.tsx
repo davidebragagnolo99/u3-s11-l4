@@ -17,7 +17,7 @@ const Article = ({ articles, id }: ArticleComponentProps) => {
               <Card.Title>{articles.title}</Card.Title>
               <Card.Text>{articles.published_at}</Card.Text>
               <Button className="detailBtn btn-danger">
-                <Link to={"/art-details" + articles.id} className="text-decoration-none navBtn">
+                <Link to={"/art-details/" + articles.id} className="text-decoration-none navBtn">
                   To Details
                 </Link>
               </Button>

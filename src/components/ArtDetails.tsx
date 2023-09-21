@@ -4,7 +4,7 @@ import { Link, useParams } from "react-router-dom";
 import { IArticle } from "../interfaces/IArticle";
 
 const ArtDetails = () => {
-  const articleEndpoint = "https://api.spaceflightnewsapi.net/v4/articles";
+  const articleEndpoint = "https://api.spaceflightnewsapi.net/v4/articles/";
   const params = useParams();
   const [article, setArticle] = useState<IArticle>();
 
@@ -23,7 +23,7 @@ const ArtDetails = () => {
 
   useEffect(() => {
     articleDetailFetch();
-  });
+  }, []);
 
   return (
     <>
