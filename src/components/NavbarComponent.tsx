@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 function NavbarComponent() {
   return (
     <Navbar expand="lg" className="bg-body-tertiary">
-      <Container className="navbar">
+      <Container className="navbar container-fluid">
         <Navbar.Brand href="#home">Spaceflight News</Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Nav className="me-auto">
